@@ -1,0 +1,12 @@
+.table-container {
+  width: 80%;
+  margin: auto;
+  height: 50%;
+  background-color: yellow;
+}
+
+.TextFields {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -10px);
+}

@@ -1,0 +1,8 @@
+.carddiv{
+    padding: 5%;
+}
+
+.subscribebutton {
+    justify-content: center;
+    display: flex
+}

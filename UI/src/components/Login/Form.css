@@ -1,0 +1,58 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 64px 128px;
+}
+
+.imagecontainer {
+  display: flex;
+  background: white;
+  align-items: center;
+  justify-content: center;
+}
+
+.imagegrid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imagebox {
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imageframe {
+  display: inline-block;
+  height: fit-content !important;
+}
+
+.image {
+  padding: 0px;
+}
+
+.title {
+  color: #1976d2;
+  text-align: center;
+  font-size: 4rem !important;
+  font-family: "Courier-Bold";
+}
+
+.titlecontainer {
+  margin: 30px 0px 3rem 0px;
+  font-weight: 700 !important;
+}
+
+.loginBox {
+  background-color: #b3d9ff;
+  margin: 10 10 10 10;
+  width: 40%;
+  position: absolute;
+  top: 50%;
+  transform: translate(10%, -50%);
+  padding: 2.25rem;
+  border-radius: 10px;
+}

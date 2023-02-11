@@ -1,0 +1,17 @@
+stages:
+  - deploy
+
+deploy-to-heroku:
+  stage: deploy
+  image: ruby:latest
+  environment:
+    name: answerbook-back-end
+    url: https://csci5709-answerme-backend.herokuapp.com/
+  before_script:
+    - gem install dpl
+  script:
+    - echo "Deploying application to Heroku....."
+    - dpl --provider=heroku --app=$HEROKU_BACK_END_APP_NAME --api-key=$HEROKU_BACK_END_API_KEY
+    - echo "Application successfully deployed."
+  only:
+    - main

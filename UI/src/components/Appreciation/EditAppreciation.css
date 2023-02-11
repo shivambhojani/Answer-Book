@@ -1,0 +1,33 @@
+.button-save {
+  top: 80px;
+}
+
+.Box {
+  width: 30%;
+  position: relative;
+  text-align: center;
+  margin: auto;
+}
+
+.TextFields {
+  margin-top: 50px;
+}
+
+.InputLabel {
+  margin-top: 50px;
+}
+
+.ValueLabel {
+  position: relative;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.KeyLabel {
+  align-items: cen;
+}
+
+.DivText {
+  border-bottom: 0.1px solid;
+  border-color: blueviolet;
+}

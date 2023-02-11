@@ -1,0 +1,87 @@
+
+.divProfileFields{
+    display: flex;
+    justify-content: center;
+}
+
+.css-1sumxir-MuiFormLabel-root-MuiInputLabel-root {
+    color: rgb(0 0 0 / 68%) !important;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif !important;
+    font-weight: bold !important;
+    font-size: 21px !important;
+}
+
+.css-nen11g-MuiStack-root {
+    align-items: center
+}
+
+.MuiGrid-spacing-xs-4 > .MuiGrid-item {
+     padding: 0px!important; 
+}
+
+.css-1sumxir-MuiFormLabel-root-MuiInputLabel-root {
+    background: #f2f6fc;
+}
+
+.cardBodyItems {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.rounded-circle {
+    border-radius: 50% !important;
+}
+
+.savebutton {
+    padding-top: 5%;
+}
+
+.profileFields {
+    box-shadow: 0 0.5rem 1.75rem 0 rgba(0, 0, 0, 0.219);
+    border-radius: 0.35rem 0.35rem 0 0;
+    font-weight: 500;
+    background-color: rgba(33, 40, 50, 0.03);
+    padding-top: 10%;
+    padding: 5%;
+
+}
+
+.profields2 {
+    padding-top: 10%;
+}
+
+
+body {
+    background-color: #f2f6fc;
+    color: #69707a;
+}
+
+.img-account-profile {
+    height: 10rem;
+}
+
+.rounded-circle {
+    border-radius: 50% !important;
+}
+
+.card {
+    box-shadow: 0 0.5rem 1.75rem 0 rgba(0, 0, 0, 0.219);
+}
+
+.card .card-header {
+    font-weight: 500;
+}
+
+.card-header:first-child {
+    border-radius: 0.35rem 0.35rem 0 0;
+}
+
+.card-header {
+    padding: 1rem 1.35rem;
+    margin-bottom: 0;
+    background-color: rgba(33, 40, 50, 0.03);
+    border-bottom: 1px solid rgba(33, 40, 50, 0.125);
+}

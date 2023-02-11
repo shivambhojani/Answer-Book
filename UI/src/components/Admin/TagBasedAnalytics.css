@@ -1,0 +1,59 @@
+.testing{
+  border: 1px solid;
+}
+
+.tag {
+  align-items: center;
+  margin: 10px;
+  border: 2px solid #1976d2;
+  border-radius: 5px;
+  background-color: orange;
+  color: white;
+}
+
+.tag button {
+  display: flex;
+  padding: 6px;
+  border: none;
+  background-color: unset;
+  cursor: pointer;
+  color: black;
+}
+
+.tag-container{
+  max-width: 100%;
+  display:inline;
+  align-items: center;
+}
+
+.grid-container{
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 0.5rem 1.75rem 0 rgba(0, 0, 0, 0.219);
+  border-radius: 0.35rem 0.35rem 0 0;
+  font-weight: 500;
+  background-color: rgba(33, 40, 50, 0.03);
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-bottom: 10%;
+  padding-top: 5%;
+  flex-direction: column;
+}
+
+.grid-container-child{
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 0.5rem 1.75rem 0 rgba(0, 0, 0, 0.219);
+  border-radius: 0.35rem 0.35rem 0 0;
+  font-weight: 500;
+  background-color: rgba(33, 40, 50, 0.03);
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+  padding-top: 5%;
+}
+
+.tag-body{
+  font-size: 20px;
+  padding-bottom: 5px;
+}

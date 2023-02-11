@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Tech",
+    "inputValue": "",
+    "getOptionLabel": ""
+  },
+  {
+    "id": 2,
+    "name": "ToDo",
+    "inputValue": "",
+    "getOptionLabel": ""
+  },
+  {
+    "id": 3,
+    "name": "Gym",
+    "inputValue": "",
+    "getOptionLabel": ""
+  },
+  {
+    "id": 4,
+    "name": "React",
+    "inputValue": "",
+    "getOptionLabel": ""
+  },
+  {
+    "id": 5,
+    "name": "Angular",
+    "inputValue": "",
+    "getOptionLabel": ""
+  },
+  {
+    "id": 6,
+    "name": "JavaScript",
+    "inputValue": "",
+    "getOptionLabel": ""
+  },
+  {
+    "id": 7,
+    "name": "TypeScript",
+    "inputValue": "",
+    "getOptionLabel": ""
+  }
+]

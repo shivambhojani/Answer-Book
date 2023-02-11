@@ -1,0 +1,26 @@
+stages:
+  - build
+  - deploy-heroku
+
+# # -------------------------- Build Client -------------------------- #
+build_client:
+  stage: build
+  image: node:16
+  tags:
+    - dalfcs_docker_kvm
+  script:
+    - npm install
+    - npm run build
+
+# -------------------------- Deploy on Prod -------------------------- #
+deploy_prod_client:
+  stage: deploy-heroku
+  image: ruby:latest
+  tags:
+    - dalfcs_docker_autoscale
+  before_script:
+    - gem install dpl
+  script:
+    - dpl --provider=heroku --app=$HEROKU_APP_NAME --api-key=$HEROKU_API_KEY --cleanup
+  only:
+    - main
